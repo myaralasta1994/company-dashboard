@@ -1,1 +1,24 @@
 git add .
+
+//Create and switch to a feature branch
+git switch -c feature/add-driver-tests
+
+
+
+main — the primary branch, where you keep stable, working code.
+
+
+
+Feature branch — a separate workspace for a specific task, such as adding driver tests.
+
+
+
+Commit — a saved snapshot of your changes.
+
+
+
+Push — upload your commits to GitHub.
+
+
+
+Merge — combine your feature branch changes into main.
