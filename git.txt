@@ -1,6 +1,7 @@
 git add .
 git commit -m "message commit"
 git push --set-upstream origin feature/edit-gittxt    for 1st time when creating the branch
+git push         for every time u want code to be published
 
 //Create and switch to a feature branch
 git switch -c feature/add-driver-tests
