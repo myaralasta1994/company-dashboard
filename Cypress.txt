@@ -1,0 +1,7 @@
+//Run Cypress in background
+npm.cmd run cy:run
+
+//Create another cypress project
+npm.cmd init -y
+npm.cmd install cypress --save-dev
+npx cypress open

@@ -1,0 +1,12 @@
+//Remove allure-report
+Remove-Item -Recurse -Force allure-report
+
+//Generate allure-report
+npm.cmd run allure:generate
+
+
+//Open allure-report
+npm.cmd run allure:open
+
+//install allure-report
+npm.cmd install --save-dev allure-cypress

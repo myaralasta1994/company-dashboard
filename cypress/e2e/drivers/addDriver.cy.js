@@ -36,7 +36,7 @@ describe('Add Driver Tests', () => {
       .should('be.visible')
       .clear()
       .type(`${driver.phoneNumber}`)
-
+//
     DriversPage.getDriverRow(`${driver.firstName} ${driver.lastName}`)
       .should('have.length.at.least', 1)
   })
