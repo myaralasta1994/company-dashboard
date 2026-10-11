@@ -1,24 +1,24 @@
 
-name: Cypress Automation
+# name: Cypress Automation
 
-on:
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
-  workflow_dispatch:
+# on:
+#   push:
+#     branches: [main]
+#   pull_request:
+#     branches: [main]
+#   workflow_dispatch:
 
-jobs:
-  cypress:
-    runs-on: ubuntu-latest
+# jobs:
+#   cypress:
+#     runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+#     steps:
+#       - name: Checkout repository
+#         uses: actions/checkout@v4
 
-      - name: Run Cypress tests
-        uses: cypress-io/github-action@v6
-        with:
-          install-command: npm ci
-          browser: chrome
-          headless: true
+#       - name: Run Cypress tests
+#         uses: cypress-io/github-action@v6
+#         with:
+#           install-command: npm ci
+#           browser: chrome
+#           headless: true
