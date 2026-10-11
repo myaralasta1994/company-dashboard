@@ -1,0 +1,28 @@
+{
+  "name": "company-dashboard",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:open:dev": "cypress open --env environment=dev",
+    "cy:open:qa": "cypress open --env environment=qa",
+    "cy:open:prod": "cypress open --env environment=prod",
+    "cy:run:dev": "cypress run --env environment=dev",
+    "cy:run:qa": "cypress run --env environment=qa",
+    "cy:run:prod": "cypress run --env environment=prod",
+    "allure:generate": "npx allure generate allure-results -o allure-report",
+    "allure:open": "npx allure open allure-report",
+    "allure:serve": "npx allure serve allure-results"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "allure": "^3.20.1",
+    "allure-cypress": "^3.13.0",
+    "cypress": "^16.1.1"
+  }
+}
